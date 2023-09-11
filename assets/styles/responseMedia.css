@@ -1,0 +1,31 @@
+@media screen and (min-width: 380px) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background: linear-gradient(
+      180deg,
+      rgba(252, 251, 251, 1) 0%,
+      rgba(100, 100, 100, 1) 98%
+    );
+  }
+  .title {
+    color: #002662;
+  }
+  .header {
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  .list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,27 @@
+@import url(./reset.css);
+@import url(./pokedex.css);
+@import url(./button.css);
+
+:root {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(252, 251, 251, 1) 0%,
+    rgba(0, 38, 98, 1) 98%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.header {
+  padding: 1rem;
+}
+.title {
+  color: rgb(182, 79, 113);
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}

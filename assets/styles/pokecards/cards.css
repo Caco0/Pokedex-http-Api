@@ -1,0 +1,36 @@
+.poke-card {
+  background: linear-gradient(
+    180deg,
+    rgba(9, 0, 190, 1) 0%,
+    rgba(246, 231, 222, 1) 100%
+  );
+  border-radius: 1rem;
+  margin: 3rem 2rem 0 2rem;
+  height: 70vh;
+  align-self: center;
+}
+.poke-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.poke-name span {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.number {
+  color: black;
+}
+
+img {
+  max-width: 45%;
+}
+.types-content {
+  background-color: aqua;
+  border-radius: 0.625rem;
+  filter: brightness(1.1);
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 0.3rem 0.725rem;
+  text-align: center;
+}
